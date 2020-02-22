@@ -1,7 +1,7 @@
 version: '3.7'
 services:
-  name: 'JupyterLab'
   web:
+    container_name: jupyter-lab
     build: .
     ports:
       - "8888:8888"
